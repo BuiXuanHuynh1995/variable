@@ -14,6 +14,15 @@ public class Main {
         System.out.println(l);
         System.out.println(d);
         System.out.println(f);
+
+        ////////////////////////////////////
+        int height = 0;
+        double with = 220.35;
+
+        double result = height; //eps kiểu rộng/không tường minh;
+        System.out.println("giá trị của result sau khi ép kiểu: "+ result);
+        int witdh = (int) with; // ép kiểu hẹp/tường minh
+        System.out.println("giá truh cua width sau khi ép kiểu: "+ witdh);
     }
 
 }
